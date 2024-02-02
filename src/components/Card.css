@@ -1,0 +1,178 @@
+.book{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+  }
+
+  .photo{
+    aspect-ratio: square;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    z-index: 25;
+    display: flex;
+    justify-content: start;
+    align-items: start; 
+    margin-left: 10px;
+    margin-top: -6px;
+  }
+
+  .image{
+    position: absolute;
+    top: -7rem;
+    z-index: 10;
+    max-width: auto;
+    margin-left: -10px;
+  }
+
+  .circle{
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    z-index: -10;
+    left: 10px;
+
+  }
+
+  .name{
+    font-size: bold;
+    text-align: center;
+    margin-top: 7;
+  }
+  .name1{
+    font-size: bold;
+    opacity: 4;
+    color: black ;
+    text-transform: capitalize;
+  }
+
+
+  .job{
+    text-align: center;
+    margin-top: -2px;
+  }
+  .job1{
+    margin-top: -15px;
+    font: bold;
+    color: violet;
+    text-transform: uppercase;
+    text-justify: 5m;
+  }
+
+  .qoute{
+
+    color:violet;
+    max-width: auto;
+    margin-top: 5;
+  }
+
+.review{
+    text-align: center;
+    margin-top: 1rem;
+    color:slateblue;
+}
+
+.qoute1{
+    color:violet;
+    max-width: auto;
+    margin-top: 1rem;
+}
+
+.btn{
+    display: flex;
+    text-align: 3xl;
+    margin-top: 2rem;
+    gap: 1rem;
+    color: violet;
+    font: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left{
+    cursor: pointer ;
+    background-color:seagreen;
+    margin: 5px;
+    /* border: 20px; */
+    padding: 4px;
+    border-color: cornflowerblue;
+    border-radius: 20%;
+}
+
+.left:hover{
+    color: blueviolet;
+    background-color: coral;
+}
+
+.right{
+    cursor: pointer;
+    background-color:seagreen;
+    margin: 5px;
+    /* border: 9px; */
+    padding: 4px;
+    border-color: cornflowerblue;
+    border-radius: 20%;
+
+
+
+
+
+}
+.right:hover{
+    color: blueviolet;
+    background-color: coral;
+
+}
+
+.button{
+    color: violet;
+}
+
+.btn1{
+    font-weight: bolder;
+    color:black;
+    background-color: violet;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 20%;
+    border-color: hotpink;
+
+}
+
+.btn1:hover{
+    font-weight: bolder;
+    color: black;
+    background-color: red;
+    border-color:goldenrod;
+   cursor: pointer;
+   transition: all ;
+   animation-duration: 1s;
+   box-shadow: rgb(193, 184, 184);
+}
+
+.card{
+    width: 85vw;
+    display: 700px;
+    background-color:white ;
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    transition: all;
+    animation-duration: 700;
+ 
+}
+.card:hover{
+    box-shadow: rgb(58, 51, 51);
+    
+}
+
